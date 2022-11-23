@@ -10,7 +10,7 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
-    reduction r;
+    reductionPourcentage r(12);
+    std::cout<<r.montantReduction(1000);
     return 0;
 }
