@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		777831B9292E3F15009CFC10 /* Gestion des soldes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Gestion des soldes"; sourceTree = BUILT_PRODUCTS_DIR; };
 		777831BC292E3F15009CFC10 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		777831C3292E447A009CFC10 /* Reduction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reduction.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				777831BC292E3F15009CFC10 /* main.cpp */,
+				777831C3292E447A009CFC10 /* Reduction.h */,
 			);
 			path = "Gestion des soldes";
 			sourceTree = "<group>";

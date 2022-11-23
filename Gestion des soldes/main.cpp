@@ -6,10 +6,11 @@
 //
 
 #include <iostream>
+#include "Reduction.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
-    double fonction(double const& t);
+    reduction r;
     return 0;
 }
