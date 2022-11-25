@@ -7,4 +7,4 @@ include_directories(.)
 
 add_executable(Gestion_des_soldes
         main.cpp
-        Reduction.h)
+        Reduction.h article.h)

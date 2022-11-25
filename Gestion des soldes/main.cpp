@@ -7,10 +7,17 @@
 
 #include <iostream>
 #include "Reduction.h"
+#include "article.h"
 
 
 int main() {
-    reductionFixe r(10);
-    std::cout<<r.prixReduit(500);
+    article a("Lubrifiants",6000);
+    a.ajouteReduction(reductionPourcentage(4));
+    a.ajouteReduction(reductionPourcentage(8));
+    a.ajouteReduction(reductionPourcentage(3));
+    a.ajouteReduction(reductionFixe(500));
+    a.ajouteReduction(reductionFixe(700));
+
+    std::cout<<a.prixReduit()<<std::endl;
     return 0;
 }
