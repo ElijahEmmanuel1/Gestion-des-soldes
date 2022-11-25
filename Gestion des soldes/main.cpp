@@ -8,16 +8,20 @@
 #include <iostream>
 #include "Reduction.h"
 #include "article.h"
+#include "formateurReduction.h"
 
 
 int main() {
     article a("Lubrifiants",6000);
+    reductionFixe r(12);
     a.ajouteReduction(reductionPourcentage(4));
     a.ajouteReduction(reductionPourcentage(8));
     a.ajouteReduction(reductionPourcentage(3));
     a.ajouteReduction(reductionFixe(500));
     a.ajouteReduction(reductionFixe(700));
+    formateurReductionTexte f(r);
 
-    std::cout<<a.prixReduit()<<std::endl;
+
+    std::cout<<f.reductionFixeFormatee(r)<<std::endl;
     return 0;
 }

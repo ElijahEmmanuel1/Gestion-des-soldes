@@ -38,5 +38,7 @@ double article::prixReduit()  {
     }
     return prixReduit;
 }
+double article::prix() const {return d_prix;};
+std::string article::description() const {return d_description;}
 
 #endif //GESTION_DES_SOLDES_ARTICLE_H
