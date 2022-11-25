@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Gestion_des_soldes",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Gestion_des_soldes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Gestion_des_soldes-Debug-72aca7f1296833176ea9.json",
+					"name" : "Gestion_des_soldes",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/elijahloicbodipoobiang/Documents/C++/Intro/UHA C++/Gestion des soldes/Gestion des soldes/cmake-build-debug",
+		"source" : "/Users/elijahloicbodipoobiang/Documents/C++/Intro/UHA C++/Gestion des soldes/Gestion des soldes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
