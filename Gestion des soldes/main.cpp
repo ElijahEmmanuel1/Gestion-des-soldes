@@ -8,9 +8,9 @@
 #include <iostream>
 #include "Reduction.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    reductionPourcentage r(12);
-    std::cout<<r.montantReduction(1000);
+
+int main() {
+    reductionFixe r(10);
+    std::cout<<r.prixReduit(500);
     return 0;
 }
